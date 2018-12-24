@@ -1,0 +1,19 @@
+experiment with all the terraform plugins
+
+INSTALLED PLUGINS
+copy-json-path
+prettiy json
+python
+terraform
+
+Research plugins
+vim bindings
+terraform
+python
+aws
+aws cli
+git tools
+go
+bash
+most popular
+

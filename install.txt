@@ -1,0 +1,68 @@
+APPLICATION INSTALL LIST
+
+GUI APPS
+vscode
+iterm2
+chrome
+path finder
+dropbox
+evernote
+skitch
+office
+jump desktop
+beyond compare
+ultraedit
+secure crt/fx
+slack
+citrix reciever
+github desktop
+
+
+grammarly
+tidal
+spotify
+vlc
+spectacle
+one photo dedupe?
+some typing drill
+	typing instructor platinum
+	typesy https://www.typesy.com/individuals/
+
+
+ON DEMAND
+iStumbler
+netspot
+wireshark
+the unarchiver
+JSON Editor
+xcode
+kindle
+
+
+CMD APPS
+brew
+git
+python
+terraform
+aws cli
+jq
+go
+
+ON DEMAND
+coreulils
+openssl
+tree
+tmux
+
+POSSIBLE NEW TOOLS
+SAWS https://saws.readthedocs.io/en/latest/
+vagrent
+packr
+hypervisor
+ansible
+linux vm
+computer architecture drawing tool
+	https://www.lucidchart.com/
+	https://www.gliffy.com/
+	https://cloudcraft.co/
+	
