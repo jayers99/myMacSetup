@@ -41,8 +41,8 @@ kindle
 
 CMD APPS
 brew
-git
-python
+git (problems) with using none mac version with vscode
+python3
 terraform
 aws cli
 jq
@@ -65,4 +65,4 @@ computer architecture drawing tool
 	https://www.lucidchart.com/
 	https://www.gliffy.com/
 	https://cloudcraft.co/
-	
+
