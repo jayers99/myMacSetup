@@ -1,16 +1,18 @@
 APPLICATION INSTALL LIST
 
 GUI APPS
-vscode
-iterm2
 chrome
-path finder
 dropbox
+path finder
+iterm2
+	install shell integration
+vscode
 evernote
 skitch
 office
 jump desktop
 beyond compare
+	install command line tools
 ultraedit
 secure crt/fx
 slack
@@ -40,6 +42,7 @@ kindle
 
 
 CMD APPS
+cmd line tools for xcode
 brew
 git (problems) with using none mac version with vscode
 python3

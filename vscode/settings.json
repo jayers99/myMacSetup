@@ -1,0 +1,14 @@
+{
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "git.enableSmartCommit": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "git.autofetch": true,
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "window.newWindowDimensions": "inherit",
+    "window.openFilesInNewWindow": "default",
+    "terminal.integrated.copyOnSelection": true,
+    "editor.tabCompletion": "on"
+}

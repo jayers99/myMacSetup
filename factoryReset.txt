@@ -1,3 +1,28 @@
+https://support.apple.com/en-us/HT204904
+
+Press and hold one of these
+Command ()-R
+Install the latest macOS that was installed on your Mac.
+
+Option-command-R
+Upgrade to the latest macOS compatible with your Mac.
+
+Shift-Option-command-R
+Install the macOS that came with your Mac, or the closest version still available.
+
+
+If you choose install without formatting drive it will install on top of what is there
+Choose disk utility
+Choose Macintosh HD
+Erase
+Take about minute
+	did not do secure erase
+Quit disk utility will bring you back to main menu
+
+Reinstall macOS
+
+Choose do not 
+
 how to reset mac back to factory
 https://www.howtogeek.com/186860/how-to-reinstall-os-x-on-your-mac-wipe-your-drive-and-create-usb-installation-media/
 
