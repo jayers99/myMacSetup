@@ -46,6 +46,7 @@ cmd line tools for xcode
 brew
 git (problems) with using none mac version with vscode
 python3
+pipenv
 terraform
 aws cli
 jq

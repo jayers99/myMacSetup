@@ -12,7 +12,10 @@ bcompare ./keybindings.json "$HOME/Library/Application Support/Code/User/keybind
 cp "$HOME/Library/Application Support/Code/User/settings.json" ./
 cp "$HOME/Library/Application Support/Code/User/keybindings.json" ./
 
-
+# to install code into the path
+# cmd pallette .... shell command
+# i do not see it in the print env though
+# it adds a sym link in /usr/local/bin
 
 # experiment with all the terraform plugins
 
