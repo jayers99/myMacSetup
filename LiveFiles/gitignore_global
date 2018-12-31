@@ -1,5 +1,13 @@
+**/*~
 **/.DS_STORE
 **/.vscode
+
+# terraform
 **/.terraform
-**/terraform.tfstate
-**/terraform.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
