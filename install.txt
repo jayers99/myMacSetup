@@ -54,7 +54,7 @@ go
 
 ON DEMAND
 coreulils
-openssl
+openssl # had to run brew reinstall openssl to get a link in path
 tree
 tmux
 

@@ -14,5 +14,19 @@ if [ ! -f ~/.bashrc ]; then echo touch touch ~/.bashrc; fi
 bcompare ~/.bashrc https://gist.githubusercontent.com/jayers99/adc109fc070487ef54d31415aa2a5d26/raw/b282f2c68ea0b8d29baf26c0f54005942daa6e79/.bashrc
 
 
+# add terraform workspace to prompt
+# https://gist.github.com/rmwpl/74d5f21d37a507bb5f387e1dec82afa5
 
+__terraform_ps1()
+{
+    # get current workspace
+    WORKSPACE=$(terraform workspace show)
 
+    if $(pwd | /bin/grep -q 'terraform'); then
+      if [ -n "$WORKSPACE" ]; then
+        echo -ne "${White}(terraform: "
+        [ "${WORKSPACE}" == "production" ] && echo -ne "${BoldRed}" || echo -ne "${Green}"
+        echo -e "${WORKSPACE}${White})${ResetColor}"
+      fi
+    fi
+}

@@ -31,6 +31,8 @@ brew cleanup
 brew doctor
 
 # should create these dirs
+# something i needed to fix on old macbook
+# my reinstalled macbook did not need it
 ll /usr/local/sbin
 sudo mkdir -p /usr/local/sbin
 sudo chown -R $(whoami) /usr/local/sbin

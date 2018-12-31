@@ -1,0 +1,3 @@
+vpn connection
+mycroft.xx
+don't forget the dns search order
