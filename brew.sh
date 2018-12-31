@@ -14,6 +14,10 @@ brew cask list
 # That is packages that are not dependencies
 brew leaves
 
+# look for packages
+brew search graphviz
+
+
 # You can now find out what is outdated with:
 brew outdated
 

@@ -18,6 +18,7 @@ secure crt/fx
 slack
 citrix reciever
 github desktop
+graphviz
 
 
 grammarly
