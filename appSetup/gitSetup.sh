@@ -61,6 +61,7 @@ git config --global core.autocrlf true # if you are on a windows box
 git config --global push.default simple # for version earlier than 2 need to set this one to just push current branch
 git config --global pull.rebase true # sets pull to do fetch rebase instead of fetch merge
 git config --global rerere.enabled true # will automatically reresolve merge conficts that you have already fixed
+git config --global core.excludesfile ~/.gitignore_global
 
 # aliases
 git config --list | grep 'alias'
