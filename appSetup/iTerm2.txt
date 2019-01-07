@@ -1,0 +1,3 @@
+set right click to paste
+https://dbavic.wordpress.com/2014/05/15/putty-like-copy-paste-on-iterm-2-mac-osx/
+preferences ->  pointer 
