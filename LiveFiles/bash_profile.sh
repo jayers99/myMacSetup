@@ -1,6 +1,5 @@
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-export GREP_OPTIONS='--color=always'
 
 #------------------------------------------------------------------------------
 # Alias
@@ -15,6 +14,10 @@ alias hcds='history | grep cd | grep -vw "cd .."'
 alias hvims='history | grep vim'
 alias hgits='history | grep git'
 alias tfgrep='egrep -irn --include \*.tf --exclude-dir=.terraform --exclude-dir=.git '
+alias grep='ggrep'
+alias sed='gsed'
+alias awk='gawk'
+alias vibash='vim ~/.bash_profile'
 
 function rtfgrep() { repoRoot=$(git rev-parse --show-toplevel); egrep -irn --include \*.tf --exclude-dir=.terraform --exclude-dir=.git $1 $repoRoot; }
 
