@@ -15,7 +15,8 @@ brew cask list
 brew leaves
 
 # look for packages
-brew search graphviz
+brew search awk
+brew info awk
 
 
 # You can now find out what is outdated with:
