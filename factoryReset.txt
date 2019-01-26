@@ -21,13 +21,12 @@ Quit disk utility will bring you back to main menu
 
 Reinstall macOS
 
-Choose do not 
+Choose do not restore icloud stuff
 
-how to reset mac back to factory
-https://www.howtogeek.com/186860/how-to-reinstall-os-x-on-your-mac-wipe-your-drive-and-create-usb-installation-media/
+setup time machine
 
-boot recovery partition
-Command+Shift+R
 
-blank the drive with disk utilities
-reinstall os
+
+
+
+
