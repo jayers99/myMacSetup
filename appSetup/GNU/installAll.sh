@@ -1,5 +1,10 @@
 brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent gnu-getopt grep
 
+brew search vim
+brew info vim
+
+brew install macvim
+
 ls /usr/local/bin
 
 brew install 

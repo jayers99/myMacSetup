@@ -1,0 +1,35 @@
+> $ brew install macvim
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+angular-cli       epubcheck         gdal              hub               node              spice-protocol    youtube-dl
+ask-cli           exploitdb         gnupg-pkcs11-scd  libbi             nwchem            topgrade
+bundletool        fn                goreleaser        libxml2           pulumi            you-get
+==> Deleted Formulae
+ruby@1.8
+
+==> Installing dependencies for macvim: cscope and lua
+==> Installing macvim dependency: cscope
+==> Downloading https://homebrew.bintray.com/bottles/cscope-15.8b.mojave.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring cscope-15.8b.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/cscope/15.8b: 11 files, 715.3KB
+==> Installing macvim dependency: lua
+==> Downloading https://homebrew.bintray.com/bottles/lua-5.3.5_1.mojave.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring lua-5.3.5_1.mojave.bottle.tar.gz
+==> Caveats
+You may also want luarocks:
+  brew install luarocks
+==> Summary
+🍺  /usr/local/Cellar/lua/5.3.5_1: 28 files, 274.5KB
+==> Installing macvim
+==> Downloading https://homebrew.bintray.com/bottles/macvim-8.1-153.mojave.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring macvim-8.1-153.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/macvim/8.1-153: 2,199 files, 35.2MB
+==> Caveats
+==> lua
+You may also want luarocks:
+  brew install luarocks
