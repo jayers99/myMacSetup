@@ -1,6 +1,7 @@
 syntax on
 colorscheme desert
-set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+"set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
 
 " Tabs / Spaces

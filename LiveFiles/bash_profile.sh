@@ -1,5 +1,6 @@
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+export PROMPT_COMMAND='history -a'
 
 #------------------------------------------------------------------------------
 # Alias

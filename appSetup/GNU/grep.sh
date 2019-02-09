@@ -1,4 +1,7 @@
-> $ brew install grep
+brew install grep
+
+
+
 ==> Installing dependencies for grep: pcre
 ==> Installing grep dependency: pcre
 ==> Downloading https://homebrew.bintray.com/bottles/pcre-8.42.mojave.bottle.tar.gz
