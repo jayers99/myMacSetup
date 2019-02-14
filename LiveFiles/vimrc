@@ -1,5 +1,7 @@
 syntax on
 colorscheme desert
+
+" visible chars
 "set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
@@ -9,3 +11,12 @@ set ts=2  " Set tabs to have 2 spaces
 set sts=2  " Set backspace to delete a single tab rather than a single space
 set expandtab  " Expand tabs to spaces
 set shiftwidth=2
+
+" vim-plug
+call plug#begin('~/.vim/plugged')
+
+Plug 'vim-airline/vim-airline' " color footer block
+Plug 'hashivim/vim-terraform'
+Plug 'mogelbrod/vim-jsonpath'
+
+call plug#end()

@@ -1,0 +1,21 @@
+vim-Plug
+https://github.com/junegunn/vim-plug
+
+My list
+Plug 'hashivim/vim-terraform'
+Plug 'vim-airline/vim-airline'
+Plug 'mogelbrod/vim-jsonpath'
+
+Clint's list
+Plug 'hashivim/vim-terraform'
+Plug 'hashicorp/sentinel.vim'
+Plug 'rafi/awesome-vim-colorschemes'
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'fatih/vim-go'
+Plug 'rust-lang/rust.vim'
+Plug 'scrooloose/syntastic'
+Plug 'davidhalter/jedi-vim'
