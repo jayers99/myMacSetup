@@ -1,5 +1,16 @@
-syntax on
+" syntax on
 colorscheme desert
+set cursorline
+highlight CursorLine cterm=NONE ctermbg=234
+
+" https://www.youtube.com/watch?v=XA2WjJbmmoM&t=311s
+" disable old vi compat
+set nocompatible
+syntax enable
+filetype plugin on
+" file finding stuff
+set path+=**
+set wildmenu
 
 " visible chars
 "set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
@@ -12,11 +23,31 @@ set sts=2  " Set backspace to delete a single tab rather than a single space
 set expandtab  " Expand tabs to spaces
 set shiftwidth=2
 
+" turn hybrid line numbers on
+":set number relativenumber
+:set nu rnu
+
+" windows mgt
+set splitbelow splitright
+
 " vim-plug
 call plug#begin('~/.vim/plugged')
 
-Plug 'vim-airline/vim-airline' " color footer block
 Plug 'hashivim/vim-terraform'
 Plug 'mogelbrod/vim-jsonpath'
+Plug 'scrooloose/nerdtree' " file nav
+Plug 'vim-airline/vim-airline' " color footer block
+Plug 'vim-airline/vim-airline-themes'
+Plug 'flazz/vim-colorschemes'
+Plug 'qualiabyte/vim-colorstepper'
+Plug 'ervandew/supertab'
+Plug 'kien/ctrlp.vim'
 
 call plug#end()
+
+" key maps
+map <C-n> :NERDTreeToggle<CR>
+" ColorStepper Keys
+nmap <F6> <Plug>ColorstepPrev
+nmap <F7> <Plug>ColorstepNext
+nmap <S-F7> <Plug>ColorstepReload
