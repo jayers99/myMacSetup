@@ -1,13 +1,14 @@
 " syntax on
 colorscheme desert
-set cursorline
-highlight CursorLine cterm=NONE ctermbg=234
+"set cursorline
+"highlight CursorLine cterm=NONE ctermbg=234
 
 " https://www.youtube.com/watch?v=XA2WjJbmmoM&t=311s
 " disable old vi compat
 set nocompatible
 syntax enable
 filetype plugin on
+
 " file finding stuff
 set path+=**
 set wildmenu
@@ -30,9 +31,26 @@ set shiftwidth=2
 " windows mgt
 set splitbelow splitright
 
+" nerdtree alway vis
+" didn't work: autocmd vimenter * if !argc() | NERDTree | endif
+" autocmd vimenter * NERDTree
+let g:NERDTreeWinSize=50
+map <C-n> :NERDTreeToggle<CR>
+
+" better nerdtree
+" https://medium.com/@victormours/a-better-nerdtree-setup-3d3921abc0b9
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif
+" nnoremap <Leader>f :NERDTreeToggle<Enter>
+" nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+" let NERDTreeQuitOnOpen = 1
+" autocmd bufenter * if (winnr(“$”) == 1 && exists(“b:NERDTreeType”) && b:NERDTreeType == “primary”) | q | endif
+" let NERDTreeAutoDeleteBuffer = 1
+" let NERDTreeMinimalUI = 1
+" let NERDTreeDirArrows = 1
+
 " vim-plug
 call plug#begin('~/.vim/plugged')
-
 Plug 'hashivim/vim-terraform'
 Plug 'mogelbrod/vim-jsonpath'
 Plug 'scrooloose/nerdtree' " file nav
@@ -42,7 +60,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'qualiabyte/vim-colorstepper'
 Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
-
+Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 
 " key maps
