@@ -19,6 +19,7 @@ slack
 citrix reciever
 github desktop
 graphviz
+alfred with powerpack
 
 
 grammarly

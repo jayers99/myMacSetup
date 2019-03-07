@@ -33,6 +33,15 @@ id [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
 fi
 
+# install a good git prompt
+# https://github.com/magicmonty/bash-git-prompt
+brew install bash-git-prompt
+# and add this to bashrc
+if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+  __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
+  GIT_PROMPT_ONLY_IN_REPO=1
+  source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+fi
 
 ############
 # config

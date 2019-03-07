@@ -2,6 +2,8 @@
 colorscheme desert
 "set cursorline
 "highlight CursorLine cterm=NONE ctermbg=234
+set nowrap
+set iskeyword+=-
 
 " https://www.youtube.com/watch?v=XA2WjJbmmoM&t=311s
 " disable old vi compat
