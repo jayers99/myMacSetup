@@ -5,14 +5,14 @@ chrome
 dropbox
 path finder
 iterm2
-	install shell integration
+  install shell integration
 vscode
 evernote
 skitch
 office
 jump desktop
 beyond compare
-	install command line tools
+  install command line tools
 ultraedit
 secure crt/fx
 slack
@@ -20,6 +20,7 @@ citrix reciever
 github desktop
 graphviz
 alfred with powerpack
+cheat sheet
 
 
 grammarly
@@ -29,8 +30,8 @@ vlc
 spectacle
 one photo dedupe?
 some typing drill
-	typing instructor platinum
-	typesy https://www.typesy.com/individuals/
+  typing instructor platinum
+  typesy https://www.typesy.com/individuals/
 
 
 ON DEMAND
@@ -68,7 +69,7 @@ hypervisor
 ansible
 linux vm
 computer architecture drawing tool
-	https://www.lucidchart.com/
-	https://www.gliffy.com/
-	https://cloudcraft.co/
+  https://www.lucidchart.com/
+  https://www.gliffy.com/
+  https://cloudcraft.co/
 

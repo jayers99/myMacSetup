@@ -1,9 +1,10 @@
-" syntax on
+syntax on
 colorscheme desert
 "set cursorline
 "highlight CursorLine cterm=NONE ctermbg=234
 set nowrap
 set iskeyword+=-
+set hlsearch
 
 " https://www.youtube.com/watch?v=XA2WjJbmmoM&t=311s
 " disable old vi compat
@@ -28,7 +29,7 @@ set shiftwidth=2
 
 " turn hybrid line numbers on
 ":set number relativenumber
-:set nu rnu
+set nu rnu
 
 " windows mgt
 set splitbelow splitright
