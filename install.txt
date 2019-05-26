@@ -21,7 +21,8 @@ github desktop
 graphviz
 alfred with powerpack
 cheat sheet
-
+vmware fision
+vagrant
 
 grammarly
 tidal

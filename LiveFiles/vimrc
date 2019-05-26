@@ -1,8 +1,11 @@
 syntax on
-colorscheme desert
+"colorscheme desert
+if &diff
+  colorscheme evening
+endif
 "set cursorline
 "highlight CursorLine cterm=NONE ctermbg=234
-set nowrap
+"set nowrap
 set iskeyword+=-
 set hlsearch
 
@@ -10,6 +13,11 @@ set hlsearch
 " disable old vi compat
 set nocompatible
 syntax enable
+au BufNewFile,BufRead,BufReadPost *.tpl set syntax=JSON
+"augroup tf_tpl "terraform template file
+"  au!
+"  autocmd BufNewFile,BufRead *.tpl   set syntax=json
+"augroup END
 filetype plugin on
 
 " file finding stuff
