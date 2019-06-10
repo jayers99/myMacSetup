@@ -1,8 +1,8 @@
 syntax on
-"colorscheme desert
-if &diff
-  colorscheme evening
-endif
+colorscheme codedark
+"if &diff
+"  colorscheme evening
+"endif
 "set cursorline
 "highlight CursorLine cterm=NONE ctermbg=234
 "set nowrap
@@ -39,6 +39,8 @@ set shiftwidth=2
 ":set number relativenumber
 set nu rnu
 
+let g:airline_theme = 'codedark'
+
 " windows mgt
 set splitbelow splitright
 
@@ -62,6 +64,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 " vim-plug
 call plug#begin('~/.vim/plugged')
+Plug 'jayers99/vim-code-dark'
 Plug 'hashivim/vim-terraform'
 Plug 'mogelbrod/vim-jsonpath'
 Plug 'scrooloose/nerdtree' " file nav
