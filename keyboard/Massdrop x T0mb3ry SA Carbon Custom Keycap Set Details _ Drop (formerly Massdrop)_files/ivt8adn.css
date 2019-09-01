@@ -1,0 +1,43 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * stratos:
+ *   - http://typekit.com/eulas/00000000000000003b9b19d1
+ *   - http://typekit.com/eulas/00000000000000003b9b19d2
+ *   - http://typekit.com/eulas/00000000000000003b9b19d3
+ *   - http://typekit.com/eulas/00000000000000003b9b19d4
+ *
+ * © 2009-2019 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-03-24 16:49:30 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=ivt8adn&ht=tk&f=38191.38192.38193.38194&a=8412043&app=typekit&e=css");
+
+@font-face {
+font-family:"stratos";
+src:url("https://use.typekit.net/af/23d194/00000000000000003b9b19d1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/23d194/00000000000000003b9b19d1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/23d194/00000000000000003b9b19d1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"stratos";
+src:url("https://use.typekit.net/af/dbc251/00000000000000003b9b19d2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/dbc251/00000000000000003b9b19d2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/dbc251/00000000000000003b9b19d2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"stratos";
+src:url("https://use.typekit.net/af/98ae43/00000000000000003b9b19d3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/98ae43/00000000000000003b9b19d3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/98ae43/00000000000000003b9b19d3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("opentype");
+font-style:italic;font-weight:500;
+}
+
+@font-face {
+font-family:"stratos";
+src:url("https://use.typekit.net/af/85fe0b/00000000000000003b9b19d4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/85fe0b/00000000000000003b9b19d4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/85fe0b/00000000000000003b9b19d4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-style:normal;font-weight:500;
+}
+
+.tk-stratos { font-family: "stratos",sans-serif; }
