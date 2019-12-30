@@ -3,6 +3,7 @@ APPLICATION INSTALL LIST
 GUI APPS
 chrome
 dropbox
+xcode
 path finder
 iterm2
   install shell integration
@@ -13,21 +14,38 @@ office
 jump desktop
 beyond compare
   install command line tools
+alfred with powerpack
+window manager (better snap tool)
+
+CMD APPS
+brew
+git (problems) with using none mac version with vscode
+python3
+pipenv
+terraform
+aws cli
+jq
+go
+coreulils
+openssl # had to run brew reinstall openssl to get a link in path
+tree
+tmux
+
+
+vmware fusion
+vagrant
+
 ultraedit
 secure crt/fx
 slack
 citrix reciever
 github desktop
 graphviz
-alfred with powerpack
-cheat sheet
-vmware fision
-vagrant
-
 grammarly
 tidal
 spotify
 vlc
+cheat sheet
 spectacle
 one photo dedupe?
 some typing drill
@@ -41,26 +59,7 @@ netspot
 wireshark
 the unarchiver
 JSON Editor
-xcode
 kindle
-
-
-CMD APPS
-cmd line tools for xcode
-brew
-git (problems) with using none mac version with vscode
-python3
-pipenv
-terraform
-aws cli
-jq
-go
-
-ON DEMAND
-coreulils
-openssl # had to run brew reinstall openssl to get a link in path
-tree
-tmux
 
 POSSIBLE NEW TOOLS
 SAWS https://saws.readthedocs.io/en/latest/
