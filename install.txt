@@ -1,6 +1,8 @@
 APPLICATION INSTALL LIST
 
 GUI APPS
+acronis
+  backup
 chrome
 dropbox
 xcode
@@ -16,6 +18,8 @@ beyond compare
   install command line tools
 alfred with powerpack
 window manager (better snap tool)
+
+backup with acronis
 
 CMD APPS
 brew
