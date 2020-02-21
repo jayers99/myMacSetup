@@ -36,3 +36,8 @@ cp "$HOME/Library/Application Support/Code/User/keybindings.json" ./
 # bash
 # most popular
 
+# to make key repeat work
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
+# to undo those settings
+defaults delete -g ApplePressAndHoldEnabled
