@@ -27,6 +27,7 @@ docker desktop
 adobe creative suite
 tidal
 sonos
+lastpass mac app
 
 
 backup with acronis
