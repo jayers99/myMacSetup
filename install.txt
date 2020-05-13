@@ -37,13 +37,15 @@ CMD APPS
 brew
 jq
 terraform
-coreulils
 tree
 tmux
 
+zsh see zsh folder
 
+coreulils
+  need to work on making those the default
 git (problems) with using none mac version with vscode
-python3
+x python3 (comes in os now)
 pipenv
 aws cli
 go
