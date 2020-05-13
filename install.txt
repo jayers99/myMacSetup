@@ -1,58 +1,66 @@
 APPLICATION INSTALL LIST
 
 GUI APPS
+chrome
 acronis
   backup
-chrome
+LogiOptions
+iterm2
+  install shell integration
 dropbox
 xcode
 path finder
-iterm2
-  install shell integration
 vscode
 evernote
-skitch
 office
-jump desktop
+jump desktop (app store) sign in with google
 beyond compare
   install command line tools
-alfred with powerpack
+alfred with powerpack - download just alfred and activation will come up
 window manager (better snap tool)
 bartender
 daisydisk
+snagit
+slack
+vmware fusion
+docker desktop
+adobe creative suite
+tidal
+sonos
+
 
 backup with acronis
 
+
 CMD APPS
 brew
-git (problems) with using none mac version with vscode
-python3
-pipenv
-terraform
-aws cli
 jq
-go
+terraform
 coreulils
-openssl # had to run brew reinstall openssl to get a link in path
 tree
 tmux
 
 
-vmware fusion
+git (problems) with using none mac version with vscode
+python3
+pipenv
+aws cli
+go
+openssl # had to run brew reinstall openssl to get a link in path
+
+
 vagrant
 
-ultraedit
-secure crt/fx
-slack
+x ultraedit
+x secure crt/fx
 citrix reciever
-github desktop
-graphviz
-grammarly
-tidal
-spotify
+x github desktop
+x graphviz
+x grammarly
+x spotify
 vlc
-cheat sheet
-spectacle
+x cheat sheet
+x spectacle
 one photo dedupe?
 some typing drill
   typing instructor platinum
