@@ -1,0 +1,146 @@
+jayers@Mac-Pro ~ % brew install jq
+==> Installing dependencies for jq: oniguruma
+==> Installing jq dependency: oniguruma
+==> Downloading https://homebrew.bintray.com/bottles/oniguruma-6.9.5-rev1.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/15/15241cccbb727a11200b6eb7398500795057bb065784a3af6ec9c98cd6ce7686?__gda__=exp=1589338252~hmac=8c6a44c7a2a5298571b2ea7633e16a6
+######################################################################## 100.0%
+==> Pouring oniguruma-6.9.5-rev1.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/oniguruma/6.9.5-rev1: 16 files, 1.3MB
+==> Installing jq
+==> Downloading https://homebrew.bintray.com/bottles/jq-1.6.catalina.bottle.1.tar.gz
+==> Downloading from https://akamai.bintray.com/82/820a3c85fcbb63088b160c7edf125d7e55fc2c5c1d51569304499c9cc4b89ce8?__gda__=exp=1589338254~hmac=7311374123e0466289bbf02498e73a7
+######################################################################## 100.0%
+==> Pouring jq-1.6.catalina.bottle.1.tar.gz
+🍺  /usr/local/Cellar/jq/1.6: 18 files, 1MB
+jayers@Mac-Pro ~ % brew install terraform
+==> Downloading https://homebrew.bintray.com/bottles/terraform-0.12.24.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/cd/cdfb0e90156ee1bedb30f52a9e260340ff7c08580c12dd35138bf63c01fe1000?__gda__=exp=1589338279~hmac=5f4dc693ec330af78e87da7dbb1bd76
+######################################################################## 100.0%
+==> Pouring terraform-0.12.24.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/terraform/0.12.24: 6 files, 51.2MB
+jayers@Mac-Pro ~ % python --version
+Python 2.7.16
+jayers@Mac-Pro ~ % brew install coreutils
+==> Downloading https://homebrew.bintray.com/bottles/coreutils-8.32.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/67/67a4452d75a1882bd7fb977b384204edfa2758276d66290e595487922368e093?__gda__=exp=1589338342~hmac=2232aa91065966cbcddd80075a3ab5d
+######################################################################## 100.0%
+==> Pouring coreutils-8.32.catalina.bottle.tar.gz
+==> Caveats
+Commands also provided by macOS have been installed with the prefix "g".
+If you need to use these commands with their normal names, you
+can add a "gnubin" directory to your PATH from your bashrc like:
+  PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+==> Summary
+🍺  /usr/local/Cellar/coreutils/8.32: 476 files, 9.2MB
+jayers@Mac-Pro ~ % brew install tree
+==> Downloading https://homebrew.bintray.com/bottles/tree-1.8.0.catalina.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring tree-1.8.0.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/tree/1.8.0: 8 files, 121.1KB
+jayers@Mac-Pro ~ % brew install tmux
+==> Installing dependencies for tmux: openssl@1.1, libevent, ncurses and utf8proc
+==> Installing tmux dependency: openssl@1.1
+==> Downloading https://homebrew.bintray.com/bottles/openssl%401.1-1.1.1g.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/19/1926679569c6af5337de812d86f4dad2b21ff883ad3a5d2cd9e8836ac5ac7ffe?__gda__=exp=1589338410~hmac=24cc0638196fcbeba99f84c14ebb05d
+######################################################################## 100.0%
+==> Pouring openssl@1.1-1.1.1g.catalina.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1g: 8,059 files, 18MB
+==> Installing tmux dependency: libevent
+==> Downloading https://homebrew.bintray.com/bottles/libevent-2.1.11_1.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/9d/9d262f9ffb2268340a89c713826d8ca068bcac06c30baf49e6184ab4660d977a?__gda__=exp=1589338425~hmac=b351bce5f79c100e4937a31758455ee
+######################################################################## 100.0%
+==> Pouring libevent-2.1.11_1.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/libevent/2.1.11_1: 1,063 files, 5MB
+==> Installing tmux dependency: ncurses
+==> Downloading https://homebrew.bintray.com/bottles/ncurses-6.2.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/ea/eae51ad3391edafe3d6c649ba44f607ee1464b4b5d9ee48770e9817ee5f0ccdd?__gda__=exp=1589338428~hmac=fa2a615d678ae65b33dc7a3fbd284ee
+######################################################################## 100.0%
+==> Pouring ncurses-6.2.catalina.bottle.tar.gz
+==> Caveats
+ncurses is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ncurses first in your PATH run:
+  echo 'export PATH="/usr/local/opt/ncurses/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find ncurses you may need to set:
+  export LDFLAGS="-L/usr/local/opt/ncurses/lib"
+  export CPPFLAGS="-I/usr/local/opt/ncurses/include"
+
+==> Summary
+🍺  /usr/local/Cellar/ncurses/6.2: 3,913 files, 8.6MB
+==> Installing tmux dependency: utf8proc
+==> Downloading https://homebrew.bintray.com/bottles/utf8proc-2.5.0.catalina.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring utf8proc-2.5.0.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/utf8proc/2.5.0: 10 files, 650.2KB
+==> Installing tmux
+==> Downloading https://homebrew.bintray.com/bottles/tmux-3.1b.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/f2/f26bd0c3f5696350dcaf229d0fadaf6ab677c0ebbb550fc499ca0a37da59ab55?__gda__=exp=1589338437~hmac=16e82272b90795e98b445e20b03dbf1
+######################################################################## 100.0%
+==> Pouring tmux-3.1b.catalina.bottle.tar.gz
+==> Caveats
+Example configuration has been installed to:
+  /usr/local/opt/tmux/share/tmux
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/tmux/3.1b: 9 files, 845.2KB
+==> Caveats
+==> openssl@1.1
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+==> ncurses
+ncurses is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ncurses first in your PATH run:
+  echo 'export PATH="/usr/local/opt/ncurses/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find ncurses you may need to set:
+  export LDFLAGS="-L/usr/local/opt/ncurses/lib"
+  export CPPFLAGS="-I/usr/local/opt/ncurses/include"
+
+==> tmux
+Example configuration has been installed to:
+  /usr/local/opt/tmux/share/tmux
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
