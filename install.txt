@@ -39,17 +39,24 @@ jq
 terraform
 tree
 tmux
-bash-git-prompt
 
 zsh see zsh folder
 
 coreulils
   need to work on making those the default
 bash 5
+grep
+sed
 git (problems) with using none mac version with vscode
+  my fav bash git prompt uses the auto complete with git
+  install brew git but path still uses apple git
+  will try that for a while and see what happens
 x python3 (comes in os now)
 pipenv
 aws cli
+kubectl
+
+
 go
 openssl # had to run brew reinstall openssl to get a link in path
 openvpn - https://openvpn.net/vpn-server-resources/connecting-to-access-server-with-macos/
