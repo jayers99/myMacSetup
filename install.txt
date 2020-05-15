@@ -28,7 +28,7 @@ adobe creative suite
 tidal
 sonos
 lastpass mac app
-
+https://contexts.co/
 
 backup with acronis
 
@@ -39,18 +39,20 @@ jq
 terraform
 tree
 tmux
+bash-git-prompt
 
 zsh see zsh folder
 
 coreulils
   need to work on making those the default
+bash 5
 git (problems) with using none mac version with vscode
 x python3 (comes in os now)
 pipenv
 aws cli
 go
 openssl # had to run brew reinstall openssl to get a link in path
-
+openvpn - https://openvpn.net/vpn-server-resources/connecting-to-access-server-with-macos/
 
 vagrant
 
