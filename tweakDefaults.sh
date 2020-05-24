@@ -8,3 +8,5 @@ defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
 defaults read "Apple Global Domain" com.apple.springing.delay
 # default is 0.5
 
+# tweak the autocorrect option
+# system pref > keyboard > text > uncheck Capitalize and smart quotes
