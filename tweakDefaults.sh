@@ -10,3 +10,6 @@ defaults read "Apple Global Domain" com.apple.springing.delay
 
 # tweak the autocorrect option
 # system pref > keyboard > text > uncheck Capitalize and smart quotes
+
+# enable sshd on desktops
+# https://osxdaily.com/2011/09/30/remote-login-ssh-server-mac-os-x/
