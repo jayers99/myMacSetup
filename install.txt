@@ -2,16 +2,16 @@ APPLICATION INSTALL LIST
 
 GUI APPS
 chrome
-acronis
-  backup
 LogiOptions
 iterm2
+  make default term
   install shell integration
 dropbox
 xcode
-path finder
 vscode
 evernote
+path finder
+  see evernote for key
 office
 jump desktop (app store) sign in with google
 beyond compare
