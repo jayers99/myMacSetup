@@ -1,6 +1,7 @@
 APPLICATION INSTALL LIST
 
 GUI APPS
+alfred with powerpack - download just alfred and activation will come up
 chrome
 LogiOptions
 iterm2
@@ -16,11 +17,11 @@ office
 jump desktop (app store) sign in with google
 beyond compare
   install command line tools
-alfred with powerpack - download just alfred and activation will come up
 window manager (better snap tool)
 bartender
 daisydisk
 snagit
+  signin to activate
 slack
 vmware fusion
 docker desktop
@@ -29,8 +30,6 @@ tidal
 sonos
 lastpass mac app
 https://contexts.co/
-
-backup with acronis
 
 
 CMD APPS
