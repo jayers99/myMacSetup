@@ -5,4 +5,7 @@
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-brew install zsh-syntax-highlighting zsh-autosuggestions
+#switch over to brew install
+
+# ignore this
+brew install -y zsh-syntax-highlighting zsh-autosuggestions

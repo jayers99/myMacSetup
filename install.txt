@@ -9,6 +9,7 @@ iterm2
   install shell integration
 dropbox
 xcode
+  sudo xcode-select --install
 vscode
 evernote
 path finder
@@ -18,7 +19,7 @@ jump desktop (app store) sign in with google
 beyond compare
   install command line tools
 window manager (better snap tool)
-bartender
+#bartender
 daisydisk
 snagit
   signin to activate
@@ -31,6 +32,8 @@ sonos
 lastpass mac app
 https://contexts.co/
 
+# zish
+zsh see zsh folder
 
 CMD APPS
 brew
@@ -38,8 +41,6 @@ jq
 terraform
 tree
 tmux
-
-zsh see zsh folder
 
 coreulils
   need to work on making those the default
